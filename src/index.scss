@@ -30,63 +30,14 @@ header {
   border-bottom: 1px solid #f1efef;
 }
 
-.product-card {
-  width: 180px;
-  height: 322px;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #f1efef;
-  border-radius: 15px;
-  position: relative;
-  gap: 15px;
-
-  &__wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    justify-content: center;
-    grid-auto-rows: minmax(100px, auto);
-    gap: 50px;
-    align-items: center;
-    justify-items: center;
-  }
-
-  &:hover {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    transform: translateY(-5px);
-  }
-
-  &__img {
-    object-fit: contain;
-    object-position: center;
-    height: 134px;
-  }
-
-  &__info {
-    text-align: center;
-  }
-
-  &__like {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  &__buy {
-    font-size: inherit;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #f1efef;
-    cursor: pointer;
-
-    &:hover {
-      background: #d3d3d3;
-      border: 1px solid #e0e0e0;
-      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
-    }
-  }
+.wrapperProductCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  grid-auto-rows: minmax(300px, auto);
+  gap: 50px;
+  align-items: center;
+  justify-items: center;
 }
 
 .searchBlock {
