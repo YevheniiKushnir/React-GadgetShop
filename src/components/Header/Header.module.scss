@@ -8,6 +8,12 @@
   .logo {
     display: flex;
     align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+    & * {
+      cursor: pointer;
+    }
     h3 {
       text-transform: uppercase;
     }
@@ -21,18 +27,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
     img {
       cursor: pointer;
     }
-  
+
     .balance {
       display: flex;
       align-items: center;
       gap: 15px;
       margin-right: 50px;
       cursor: pointer;
-  
+
       * {
         cursor: pointer;
       }
